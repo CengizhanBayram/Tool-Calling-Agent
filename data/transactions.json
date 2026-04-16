@@ -1,0 +1,222 @@
+[
+  {
+    "transaction_id": "TXN-10041",
+    "user_id": "USR-001",
+    "amount": 4500.00,
+    "currency": "TRY",
+    "status": "failed",
+    "type": "payment",
+    "merchant": "TechStore Istanbul",
+    "created_at": "2024-11-14T22:31:00",
+    "failure_code": "FRAUD_SUSPECTED"
+  },
+  {
+    "transaction_id": "TXN-10042",
+    "user_id": "USR-001",
+    "amount": 299.00,
+    "currency": "TRY",
+    "status": "success",
+    "type": "subscription",
+    "merchant": "Netflix TR",
+    "created_at": "2024-11-13T10:05:00",
+    "failure_code": null
+  },
+  {
+    "transaction_id": "TXN-10043",
+    "user_id": "USR-001",
+    "amount": 1200.00,
+    "currency": "TRY",
+    "status": "success",
+    "type": "payment",
+    "merchant": "MediaMarkt TR",
+    "created_at": "2024-11-10T14:22:00",
+    "failure_code": null
+  },
+  {
+    "transaction_id": "TXN-10044",
+    "user_id": "USR-002",
+    "amount": 8750.00,
+    "currency": "TRY",
+    "status": "failed",
+    "type": "withdrawal",
+    "merchant": "ATM-Beyoglu-01",
+    "created_at": "2024-11-15T09:15:00",
+    "failure_code": "ACCOUNT_SUSPENDED"
+  },
+  {
+    "transaction_id": "TXN-10045",
+    "user_id": "USR-002",
+    "amount": 350.00,
+    "currency": "TRY",
+    "status": "refunded",
+    "type": "refund",
+    "merchant": "Trendyol",
+    "created_at": "2024-11-08T16:40:00",
+    "failure_code": null
+  },
+  {
+    "transaction_id": "TXN-10046",
+    "user_id": "USR-003",
+    "amount": 25000.00,
+    "currency": "TRY",
+    "status": "success",
+    "type": "transfer",
+    "merchant": "Garanti BBVA",
+    "created_at": "2024-11-14T11:00:00",
+    "failure_code": null
+  },
+  {
+    "transaction_id": "TXN-10047",
+    "user_id": "USR-003",
+    "amount": 15000.00,
+    "currency": "TRY",
+    "status": "failed",
+    "type": "transfer",
+    "merchant": "Ziraat Bank",
+    "created_at": "2024-11-12T08:45:00",
+    "failure_code": "VELOCITY_LIMIT_EXCEEDED"
+  },
+  {
+    "transaction_id": "TXN-10048",
+    "user_id": "USR-003",
+    "amount": 3200.00,
+    "currency": "TRY",
+    "status": "success",
+    "type": "payment",
+    "merchant": "Amazon TR",
+    "created_at": "2024-11-11T19:30:00",
+    "failure_code": null
+  },
+  {
+    "transaction_id": "TXN-10049",
+    "user_id": "USR-004",
+    "amount": 500.00,
+    "currency": "TRY",
+    "status": "failed",
+    "type": "payment",
+    "merchant": "Migros Online",
+    "created_at": "2024-11-13T12:10:00",
+    "failure_code": "CARD_EXPIRED"
+  },
+  {
+    "transaction_id": "TXN-10050",
+    "user_id": "USR-005",
+    "amount": 990.00,
+    "currency": "TRY",
+    "status": "success",
+    "type": "subscription",
+    "merchant": "Spotify TR",
+    "created_at": "2024-11-14T07:00:00",
+    "failure_code": null
+  },
+  {
+    "transaction_id": "TXN-10051",
+    "user_id": "USR-005",
+    "amount": 12500.00,
+    "currency": "TRY",
+    "status": "failed",
+    "type": "payment",
+    "merchant": "Luxe Jewelry Online",
+    "created_at": "2024-11-13T23:55:00",
+    "failure_code": "FRAUD_SUSPECTED"
+  },
+  {
+    "transaction_id": "TXN-10052",
+    "user_id": "USR-005",
+    "amount": 200.00,
+    "currency": "TRY",
+    "status": "pending",
+    "type": "payment",
+    "merchant": "Hepsiburada",
+    "created_at": "2024-11-15T10:30:00",
+    "failure_code": null
+  },
+  {
+    "transaction_id": "TXN-10053",
+    "user_id": "USR-006",
+    "amount": 75000.00,
+    "currency": "TRY",
+    "status": "success",
+    "type": "transfer",
+    "merchant": "Yapı Kredi",
+    "created_at": "2024-11-14T09:00:00",
+    "failure_code": null
+  },
+  {
+    "transaction_id": "TXN-10054",
+    "user_id": "USR-006",
+    "amount": 4200.00,
+    "currency": "TRY",
+    "status": "success",
+    "type": "payment",
+    "merchant": "Apple Store TR",
+    "created_at": "2024-11-12T15:20:00",
+    "failure_code": null
+  },
+  {
+    "transaction_id": "TXN-10055",
+    "user_id": "USR-006",
+    "amount": 950.00,
+    "currency": "TRY",
+    "status": "failed",
+    "type": "payment",
+    "merchant": "BlockedShop.ru",
+    "created_at": "2024-11-11T02:15:00",
+    "failure_code": "BLOCKED_MERCHANT"
+  },
+  {
+    "transaction_id": "TXN-10056",
+    "user_id": "USR-007",
+    "amount": 3300.00,
+    "currency": "TRY",
+    "status": "failed",
+    "type": "withdrawal",
+    "merchant": "ATM-Kadikoy-03",
+    "created_at": "2024-11-15T14:00:00",
+    "failure_code": "INSUFFICIENT_FUNDS"
+  },
+  {
+    "transaction_id": "TXN-10057",
+    "user_id": "USR-007",
+    "amount": 180.00,
+    "currency": "TRY",
+    "status": "success",
+    "type": "payment",
+    "merchant": "Getir",
+    "created_at": "2024-11-10T20:45:00",
+    "failure_code": null
+  },
+  {
+    "transaction_id": "TXN-10058",
+    "user_id": "USR-008",
+    "amount": 1750.00,
+    "currency": "TRY",
+    "status": "success",
+    "type": "payment",
+    "merchant": "Zara TR",
+    "created_at": "2024-11-14T13:00:00",
+    "failure_code": null
+  },
+  {
+    "transaction_id": "TXN-10059",
+    "user_id": "USR-008",
+    "amount": 620.00,
+    "currency": "TRY",
+    "status": "refunded",
+    "type": "refund",
+    "merchant": "Boyner",
+    "created_at": "2024-11-13T11:30:00",
+    "failure_code": null
+  },
+  {
+    "transaction_id": "TXN-10060",
+    "user_id": "USR-008",
+    "amount": 89.90,
+    "currency": "TRY",
+    "status": "success",
+    "type": "subscription",
+    "merchant": "YouTube Premium",
+    "created_at": "2024-11-01T08:00:00",
+    "failure_code": null
+  }
+]

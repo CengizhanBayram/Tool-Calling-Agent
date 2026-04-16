@@ -1,0 +1,132 @@
+[
+  {
+    "transaction_id": "TXN-10041",
+    "failure_code": "FRAUD_SUSPECTED",
+    "reason_tr": "İşlem, alışılmadık bir coğrafi konumdan (Moskova, RU) gerçekleştirilmeye çalışıldı. Hesabınızın son 30 günlük işlem geçmişiyle uyuşmayan bu aktivite otomatik olarak engellendi.",
+    "reason_en": "Transaction attempted from unusual geographic location (Moscow, RU). Inconsistent with 30-day activity history. Blocked automatically.",
+    "risk_signals": [
+      "unusual_location",
+      "high_amount",
+      "night_time"
+    ],
+    "can_dispute": true,
+    "resolution_steps": [
+      "Müşteri hizmetlerini arayın: 0850 XXX XX XX",
+      "Kimlik doğrulama tamamlayın",
+      "İşlemi yeniden deneyin"
+    ],
+    "detected_at": "2024-11-14T22:31:05",
+    "reviewed_by": "AutoFraudEngine v3.2"
+  },
+  {
+    "transaction_id": "TXN-10044",
+    "failure_code": "ACCOUNT_SUSPENDED",
+    "reason_tr": "Hesabınız askıya alınmış olduğundan bu işlem gerçekleştirilemedi. Hesap askıya alma işlemi, şüpheli giriş denemeleri tespit edilmesi nedeniyle 14 Kasım 2024 tarihinde uygulanmıştır.",
+    "reason_en": "Account is suspended; transaction could not be processed. Suspension applied on 14 Nov 2024 due to suspicious login attempts.",
+    "risk_signals": [
+      "account_suspended",
+      "multiple_failed_logins"
+    ],
+    "can_dispute": false,
+    "resolution_steps": [
+      "Kimlik belgelerinizle birlikte şubemize başvurun",
+      "Online Kimlik Doğrulama Portalı'nı kullanın: portal.bank.com/verify",
+      "7/24 destek hattını arayın: 0850 XXX XX XX"
+    ],
+    "detected_at": "2024-11-15T09:15:04",
+    "reviewed_by": "AccountSecurityEngine v2.1"
+  },
+  {
+    "transaction_id": "TXN-10047",
+    "failure_code": "VELOCITY_LIMIT_EXCEEDED",
+    "reason_tr": "24 saatlik transfer limitiniz (20.000 TRY) aşılmak üzere olduğundan bu işlem durduruldu. Bugün toplam 20.000 TRY tutarında transfer gerçekleştirdiniz; ek 15.000 TRY'lik bu işlem limitinizi aşmaktadır.",
+    "reason_en": "24-hour transfer limit (20,000 TRY) would be exceeded. Total today: 20,000 TRY; this additional 15,000 TRY transfer exceeds the limit.",
+    "risk_signals": [
+      "velocity_limit",
+      "large_amount",
+      "same_day_multiple_transfers"
+    ],
+    "can_dispute": false,
+    "resolution_steps": [
+      "Yarın yeniden deneyin (limit her gün 00:00'da sıfırlanır)",
+      "Limit artırımı için Kurumsal Bankacılık ekibimizi arayın: 0850 YYY YY YY",
+      "İşlemi birden fazla güne bölerek gerçekleştirebilirsiniz"
+    ],
+    "detected_at": "2024-11-12T08:45:03",
+    "reviewed_by": "TransactionLimitEngine v1.8"
+  },
+  {
+    "transaction_id": "TXN-10049",
+    "failure_code": "CARD_EXPIRED",
+    "reason_tr": "Ödeme için kullandığınız kartın son kullanma tarihi geçmiştir. Kart, Ekim 2024 sonunda süresi dolmuştur.",
+    "reason_en": "Payment card has expired. Card expiry date passed in October 2024.",
+    "risk_signals": [
+      "expired_card"
+    ],
+    "can_dispute": false,
+    "resolution_steps": [
+      "Yeni kartınızı en yakın şubemizden alabilirsiniz",
+      "Online kart yenileme için: mybank.com/renew-card",
+      "Kartınız zaten yollanmışsa postayı kontrol edin (7-10 iş günü)"
+    ],
+    "detected_at": "2024-11-13T12:10:02",
+    "reviewed_by": "CardValidationEngine v4.0"
+  },
+  {
+    "transaction_id": "TXN-10051",
+    "failure_code": "FRAUD_SUSPECTED",
+    "reason_tr": "İşlem gece 23:55'te, alışılmadık derecede yüksek bir tutarla (12.500 TRY) bilinmeyen bir kuyumcu sitesinde denenmiştir. Hesabınızın alışveriş profilinizle uyuşmayan bu işlem güvenliğiniz için engellendi.",
+    "reason_en": "Transaction attempted at 23:55 for unusually high amount (12,500 TRY) at an unknown jewelry site. Inconsistent with account shopping profile. Blocked for security.",
+    "risk_signals": [
+      "unusual_merchant",
+      "high_amount",
+      "night_time",
+      "new_merchant_category"
+    ],
+    "can_dispute": true,
+    "resolution_steps": [
+      "Uygulamadan işlemi onaylamak için bildirime tıklayın",
+      "Müşteri hizmetlerini arayın: 0850 XXX XX XX",
+      "Güvenli olmadığını düşünüyorsanız kartınızı geçici olarak dondurun: app.mybank.com/freeze"
+    ],
+    "detected_at": "2024-11-13T23:55:08",
+    "reviewed_by": "AutoFraudEngine v3.2"
+  },
+  {
+    "transaction_id": "TXN-10055",
+    "failure_code": "BLOCKED_MERCHANT",
+    "reason_tr": "İşlem yapmaya çalıştığınız satıcı (BlockedShop.ru), kara listedeki satıcılar listesinde yer almaktadır. Bu satıcıdan yapılan tüm işlemler otomatik olarak engellenmektedir.",
+    "reason_en": "Merchant (BlockedShop.ru) is on the blocked merchant list. All transactions from this merchant are automatically declined.",
+    "risk_signals": [
+      "blocked_merchant",
+      "foreign_domain",
+      "high_risk_country"
+    ],
+    "can_dispute": false,
+    "resolution_steps": [
+      "Bu satıcıyla işlem yapmak mümkün değildir",
+      "Resmi ve güvenilir satıcıları tercih edin",
+      "Engellenen satıcılar hakkında bilgi için: 0850 XXX XX XX"
+    ],
+    "detected_at": "2024-11-11T02:15:01",
+    "reviewed_by": "MerchantRiskEngine v2.5"
+  },
+  {
+    "transaction_id": "TXN-10056",
+    "failure_code": "INSUFFICIENT_FUNDS",
+    "reason_tr": "Hesabınızda yeterli bakiye bulunmamaktadır. Çekilmek istenen tutar (3.300 TRY), mevcut kullanılabilir bakiyenizi (1.245,50 TRY) aşmaktadır.",
+    "reason_en": "Insufficient funds. Requested withdrawal (3,300 TRY) exceeds available balance (1,245.50 TRY).",
+    "risk_signals": [
+      "insufficient_funds",
+      "low_balance"
+    ],
+    "can_dispute": false,
+    "resolution_steps": [
+      "Hesabınıza para yatırın ve yeniden deneyin",
+      "Farklı bir hesaptan transfer yapabilirsiniz",
+      "Nakit avans için kredi kartınızı kullanabilirsiniz (ek ücret uygulanır)"
+    ],
+    "detected_at": "2024-11-15T14:00:02",
+    "reviewed_by": "BalanceCheckEngine v3.0"
+  }
+]

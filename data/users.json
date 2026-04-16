@@ -1,0 +1,82 @@
+[
+  {
+    "user_id": "USR-001",
+    "email": "ali@sirket.com",
+    "full_name": "Ali Yılmaz",
+    "account_status": "active",
+    "account_type": "premium",
+    "created_at": "2022-03-15",
+    "phone": "+90-532-111-2233",
+    "risk_score": 12
+  },
+  {
+    "user_id": "USR-002",
+    "email": "ayse@ornek.com",
+    "full_name": "Ayşe Kaya",
+    "account_status": "suspended",
+    "account_type": "basic",
+    "created_at": "2023-07-01",
+    "phone": "+90-555-444-3322",
+    "risk_score": 78
+  },
+  {
+    "user_id": "USR-003",
+    "email": "mehmet@kurumsal.com",
+    "full_name": "Mehmet Demir",
+    "account_status": "active",
+    "account_type": "enterprise",
+    "created_at": "2021-01-10",
+    "phone": "+90-542-777-8899",
+    "risk_score": 5
+  },
+  {
+    "user_id": "USR-004",
+    "email": "fatma@mail.com",
+    "full_name": "Fatma Şahin",
+    "account_status": "closed",
+    "account_type": "basic",
+    "created_at": "2022-09-20",
+    "phone": "+90-505-333-1122",
+    "risk_score": 45
+  },
+  {
+    "user_id": "USR-005",
+    "email": "emre@tech.io",
+    "full_name": "Emre Çelik",
+    "account_status": "active",
+    "account_type": "premium",
+    "created_at": "2023-02-14",
+    "phone": "+90-532-999-0011",
+    "risk_score": 23
+  },
+  {
+    "user_id": "USR-006",
+    "email": "zeynep@globalfirm.com",
+    "full_name": "Zeynep Arslan",
+    "account_status": "active",
+    "account_type": "enterprise",
+    "created_at": "2020-11-05",
+    "phone": "+90-545-222-4455",
+    "risk_score": 8
+  },
+  {
+    "user_id": "USR-007",
+    "email": "hasan@koc.net",
+    "full_name": "Hasan Koç",
+    "account_status": "suspended",
+    "account_type": "basic",
+    "created_at": "2023-11-28",
+    "phone": "+90-531-888-7766",
+    "risk_score": 91
+  },
+  {
+    "user_id": "USR-008",
+    "email": "selin@yildiz.com",
+    "full_name": "Selin Yıldız",
+    "account_status": "active",
+    "account_type": "premium",
+    "created_at": "2022-06-18",
+    "phone": "+90-553-444-6677",
+    "risk_score": 31
+  }
+]
